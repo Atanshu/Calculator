@@ -27,7 +27,7 @@ header{
 }
 nav ul{
     display: flex;
-    align-items: center;
+    align-items: right;
 }
 nav ul li{
     list-style: none;
@@ -40,21 +40,20 @@ nav ul li a {
     color: white;
     padding: 10px;
 }
-
 #container{
-    width: 1000px;
-    height: 550px;
+    width: 50rem;
+    height: 100%;
     background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('img/bg.jpeg');
-    margin: 20px auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 #calculator{
     width: 320px;
     height: 520px;
     background-color: black;
-    margin:0 auto;
-    top:15px;
-    position: relative;
+    margin:auto;
     border-radius: 5px;
     box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -198,4 +197,13 @@ button:nth-child(20){
     text-align: justify;
     margin-left:2px !important;
     margin-right: 2px !important;
+}
+
+@media screen and (max-width:300px){
+    *{
+        width:100%;
+    }
+   #container{
+       display: none;
+   }
 }
