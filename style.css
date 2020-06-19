@@ -40,9 +40,10 @@ nav ul li a {
     color: white;
     padding: 10px;
 }
+
 #container{
-    width: 50rem;
-    height: 100%;
+    width: 1000px;
+    height: 550px;
     background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('img/bg.jpeg');
     margin: auto;
     display: flex;
@@ -171,7 +172,7 @@ button:nth-child(20){
 }
 
 .copyright p{
-    color: black;
+    color: white;
 }
 
 .copyrightmain{
